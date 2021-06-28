@@ -20,6 +20,7 @@ const config: Configuration = {
     filename: "bundle.js",
     path: DIST_DIR,
   },
+  devtool: 'inline-source-map',
   module: {
     rules: [
       {
