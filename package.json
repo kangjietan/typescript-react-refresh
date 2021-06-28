@@ -4,7 +4,8 @@
   "description": "Template for React Refresh",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack serve --config=config/webpack/webpack.dev.ts"
+    "watch": "webpack serve --config=config/webpack/webpack.dev.ts",
+    "build": "webpack --config=config/webpack/webpack.prod.ts"
   },
   "repository": {
     "type": "git",
