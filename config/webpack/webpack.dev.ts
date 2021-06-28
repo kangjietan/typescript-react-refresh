@@ -4,7 +4,7 @@ import { Configuration as WebpackDevServerConfiguration } from "webpack-dev-serv
 import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
-const ReactRefreshTypeScript = require("react-refresh-typescript").default;
+import ReactRefreshTypeScript from 'react-refresh-typescript';
 
 interface Configuration extends WebpackConfiguration {
   devServer?: WebpackDevServerConfiguration;
